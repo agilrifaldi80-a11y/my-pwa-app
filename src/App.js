@@ -1,24 +1,35 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div
+      style={{
+        textAlign: "center",
+        padding: "50px",
+        fontFamily: "Arial"
+      }}
+    >
+      <h1>🚀 My Progressive Web App</h1>
+
+      <p>
+        Aplikasi PWA menggunakan React Create React App
+      </p>
+
+      <img
+        src="https://cdn-icons-png.flaticon.com/512/919/919851.png"
+        alt="PWA"
+        width="150"
+      />
+
+      <br /><br />
+
+      <button
+        style={{
+          padding: "12px 25px",
+          fontSize: "16px",
+          cursor: "pointer"
+        }}
+      >
+        Install PWA
+      </button>
     </div>
   );
 }
